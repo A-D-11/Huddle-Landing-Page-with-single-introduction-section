@@ -1,0 +1,109 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../images/bg-desktop.svg");
+    background-color:  hsl(257, 40%, 49%);
+    height: 100vh;
+    margin: 1.5rem;
+}
+
+
+
+header{
+    margin: 1.5rem;
+}
+
+header a img{
+    width: 20%;
+    margin-top: 2rem;
+    margin-left: 2.5rem;
+}
+
+.container{
+    display: flex;   
+    flex-wrap: nowrap;
+    gap: 2.5rem; 
+}
+
+.container .pic img{
+    max-width: 88%;
+    margin-left: 4rem;
+    margin-top: 3rem;
+}
+
+.content{
+    width: 25rem;
+    margin-top: 3rem;
+}
+
+.container .content h1{
+    color: #ffff;
+    line-height: 3.3rem;
+    padding: 2.5rem 0 0 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.content p{
+    color: #f7f7f7;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    margin-top: 0.8rem;
+}
+
+.content button{
+    margin-top: 1.5rem;
+    width: 40%;
+    padding: 0.9rem;
+    border-radius: 50px;
+    color: hsl(257, 40%, 49%);
+    border: none;
+    box-shadow: 0 8px 20px 4px rgba(0, 0, 0, 0.497);
+}
+
+button:hover{
+    cursor: pointer;
+    color: #f7f7f7;
+    background-color: hsl(300, 69%, 71%);
+}
+
+footer{
+    display: flex;
+    justify-content: end;
+}
+
+.icons{
+    border: 1.5px solid #ffff;
+    border-radius: 50%;
+    color: #ffff;
+    margin-right: 0.5rem;
+}
+
+.icon-twtr{
+    padding: 6px;
+}
+
+.icon-fb{
+    padding: 6px 9px;
+}
+
+.icon-insta{
+    padding: 6px 7px;
+}
+
+.icons:hover{
+    cursor: pointer;
+    color: hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
+}
